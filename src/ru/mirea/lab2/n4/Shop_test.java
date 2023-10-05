@@ -1,4 +1,4 @@
-package ru.mirea.lab2.four;
+package ru.mirea.lab2.n4;
 import java.util.Scanner;
 public class Shop_test {
     public static void main(String[] args) {

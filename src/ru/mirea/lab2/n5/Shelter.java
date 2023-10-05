@@ -1,5 +1,5 @@
-package ru.mirea.lab2.five;
-import java.util.Scanner;
+package ru.mirea.lab2.n5;
+
 public class Shelter {
     private Dog[] dogs;
     private int count;

@@ -1,4 +1,4 @@
-package ru.mirea.lab2.five;
+package ru.mirea.lab2.n5;
 
 public class Dog
 {

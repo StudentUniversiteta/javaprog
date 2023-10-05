@@ -1,4 +1,4 @@
-package ru.mirea.lab2.two;
+package ru.mirea.lab2.n2;
 
 
 public class TestBall {

@@ -1,4 +1,4 @@
-package ru.mirea.lab2.one;
+package ru.mirea.lab2.n1;
 
 /**
  * Тестер для класса Author

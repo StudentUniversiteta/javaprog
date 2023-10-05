@@ -1,4 +1,4 @@
-package ru.mirea.lab2.four;
+package ru.mirea.lab2.n4;
 
 public class Shop
 {

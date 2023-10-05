@@ -1,4 +1,4 @@
-package ru.mirea.lab2.nine;
+package ru.mirea.lab2.n9;
 
 
 import java.util.*;

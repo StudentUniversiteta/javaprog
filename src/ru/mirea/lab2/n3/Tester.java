@@ -1,4 +1,4 @@
-package ru.mirea.lab2.three;
+package ru.mirea.lab2.n3;
 
 /**
  * Тестер для классов Circle и Point
