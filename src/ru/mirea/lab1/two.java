@@ -2,60 +2,73 @@ package ru.mirea.lab1;
 import java.util.Scanner; // пакет используемый для ввода из командной строки
 
 public class two {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner in = new Scanner(System.in);
-        System.out.print("n = ");
-        int n = in.nextInt(); // ввод информации
-        int[] arr = new int[n];
-        System.out.println("Enter numbers:");
-        for (int i=0; i < n; i++)
+        System.out.println("Введите количество чисел: ");
+        int num;
+        int sumW = 0;
+        int sumD = 0;
+        int ii = 0;
+        num = in.nextInt();
+        int[] arr = new int[num];
+        System.out.println("Заполните массив: ");
+        for (int i = 0; i<num; i++)
         {
-            arr[i] = in.nextInt(); // заполнение массива введенными числами
+            arr[i] = in.nextInt();
         }
-        // while
-        int sum = 0;
-        int maxi = arr[0];
-        int mini = arr[0];
-        int c = 0;
-        while (c < n)
+        //=================WHILE=================
+        System.out.println("=========РЕШЕНИЕ С ПОМОЩЬЮ WHILE==========");
+        while(ii < num) //сумма
         {
-            sum += arr[c];
-            if (arr[c] > maxi) {
-                maxi = arr[c];
-            }
-            if (arr[c] < mini) {
-                mini = arr[c];
-            }
-            c++;
+            sumW+=arr[ii];
+            ii++;
         }
-        System.out.println("while:");
-        System.out.println("sum = " + sum);
-        System.out.println("max = " + maxi);
-        System.out.println("min = " + mini);
-
-        // do while
-        sum = 0;
-        maxi = arr[0];
-        mini = arr[0];
-        c = 0;
+        System.out.println("Сумма: " + sumW);
+        int maxW = 0;
+        int minW = Integer.MAX_VALUE;
+        int ctrW = 0;
+        while(ctrW < num)
+        {
+            if (arr[ctrW] > maxW)
+            {
+                maxW = arr[ctrW];
+            }
+            if (arr[ctrW] < minW)
+            {
+                minW = arr[ctrW];
+            }
+            ctrW++;
+        }
+        System.out.println("Мин. число: " + minW + "\n" + "Макс. Число: " + maxW);
+        //=============DO WHILE================
+        System.out.println("=========РЕШЕНИЕ С ПОМОЩЬЮ DO WHILE==========");
+        ii = 0;
         do
         {
-            sum += arr[c];
-            if (arr[c] > maxi)
-            {
-                maxi = arr[c];
-            }
-            if (arr[c] < mini)
-            {
-                mini = arr[c];
-            }
-            c++;
-        } while (c < n);
-        System.out.println("do while:");
-        System.out.println("sum = " + sum);
-        System.out.println("max = " + maxi);
-        System.out.println("min = " + mini);
+            sumD+=arr[ii];
+            ii++;
+        }
+        while(ii < num);
 
+        System.out.println("Сумма: " + sumD);
+        int maxD = 0;
+        int minD = Integer.MAX_VALUE;
+        int ctrD = 0;
+        do
+        {
+            if (arr[ctrD] > maxD)
+            {
+                maxD = arr[ctrD];
+            }
+            if (arr[ctrD] < minD)
+            {
+                minD = arr[ctrD];
+            }
+            ctrD++;
+        }
+        while(ctrD < num);
+
+        System.out.println("Мин. число: " + minW + "\n" + "Макс. Число: " + maxW);
     }
-
 }

@@ -1,17 +1,50 @@
 package ru.mirea.lab1;
 
+import java.util.Scanner;
+
 public class one
 {
     public static void main(String[] args)
     {
-        int num = 10; // кол-во чисел
+        Scanner in = new Scanner(System.in);
+        System.out.print("Введите размер массива: " + "\n");
+        int num = in.nextInt(); // кол-во чисел
         int[] array = new int[num];
         int sum = 0;
-        for (int i=0; i<10; i++) // цикл for
+        int n = 0;
+        System.out.print("1 - Случайный массив, 2 - Ввод элементов" + "\n");
+        while(true)
         {
-            array[i] = (int)(Math.random()*100); // случайное заполнение массива
-            sum += array[i]; // счет суммы
+            n = in.nextInt();
+            if ((n == 1)||(n == 2))
+                break;
+            System.out.print("Неверный ввод"+"\n");
         }
-        System.out.print(sum / num);
+        int b;
+        switch (n){
+            case (1):
+                System.out.print("Массив: ");
+                for (int i=0; i<num; i++) // цикл for
+                {
+                    array[i] = (int)(Math.random()*100); // случайное заполнение массива
+                    sum += array[i]; // счет суммы
+                    System.out.print("\n" + array[i]);
+                }
+                System.out.print("\n");
+                break;
+
+            case(2):
+                System.out.print("Заполняй массив сам чмо" + "\n");
+                for (int i=0; i<num; i++) // цикл for
+                {
+                    b = in.nextInt();
+                    array[i] = b; // заполнение массива ручками
+                    sum += array[i]; // счет суммы
+                }
+                break;
+        }
+
+
+        System.out.print("Итог: " + "\n" + "Среднее арифметическое - " + sum / num);
     }
 }
