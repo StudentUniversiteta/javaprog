@@ -7,7 +7,9 @@ public class four {
         for (int i = 1; i < 11; i++)
         {
             System.out.print(i + " число = ");
-            System.out.println(1.0/i);
+            System.out.printf("%.4f", 1.0/i);
+            System.out.print("\n");
+            //System.out.println(1.0/i);
         }
     }
 }
