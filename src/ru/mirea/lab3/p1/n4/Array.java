@@ -1,4 +1,4 @@
-package ru.mirea.lab3.p1.four;
+package ru.mirea.lab3.p1.n4;
 
 public class Array {
 

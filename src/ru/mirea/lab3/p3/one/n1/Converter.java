@@ -1,4 +1,4 @@
-package ru.mirea.lab3.p3.one;
+package ru.mirea.lab3.p3.one.n1;
 
 import java.util.Scanner;
 
