@@ -2,7 +2,7 @@ package ru.mirea.lab1;
 
 import java.util.Scanner;
 
-public class one
+public class n1
 {
     public static void main(String[] args)
     {

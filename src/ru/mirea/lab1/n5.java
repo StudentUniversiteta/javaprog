@@ -1,6 +1,6 @@
 package ru.mirea.lab1;
 
-public class five {
+public class n5 {
     // факториал
     public static void fact(int num)
     {

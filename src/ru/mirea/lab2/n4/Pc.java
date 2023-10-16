@@ -1,5 +1,9 @@
 package ru.mirea.lab2.n4;
 
+/*interface pc {
+    public String getName();
+}*/
+
 public class Pc
 {
     private String name;

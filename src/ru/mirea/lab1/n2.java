@@ -1,7 +1,7 @@
 package ru.mirea.lab1;
 import java.util.Scanner; // пакет используемый для ввода из командной строки
 
-public class two {
+public class n2 {
     public static void main(String[] args)
     {
         Scanner in = new Scanner(System.in);

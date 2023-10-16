@@ -1,6 +1,6 @@
 package ru.mirea.lab1;
 
-public class four {
+public class n4 {
 
     public static void main(String[] args)
     {
