@@ -1,5 +1,4 @@
 package ru.mirea.lab9.n2;
-import ru.mirea.lab9.defaultSortMethods.QuickSortDefault.Comparator;
 
 import java.util.Arrays;
 public class SortingStudentsByGPA implements Comparator {
