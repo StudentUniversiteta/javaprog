@@ -1,4 +1,4 @@
-package ru.mirea.lab9.MergeSortDefault;
+package ru.mirea.lab9.defaultSortMethods.MergeSortDefault;
 import java.util.Arrays;
 public class MergeSort {
     public static void main(String[] args) {

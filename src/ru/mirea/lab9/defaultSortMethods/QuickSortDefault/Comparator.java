@@ -1,4 +1,4 @@
-package ru.mirea.lab9.QuickSortDefault;
+package ru.mirea.lab9.defaultSortMethods.QuickSortDefault;
 
 public interface Comparator
 {
