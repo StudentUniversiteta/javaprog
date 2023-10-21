@@ -17,12 +17,13 @@ public class palindrome
             }
         //}
         if (start >= string.length()/2) {
-            System.out.println("Слово " + string + " - палиндром!");
+            System.out.println("YES");
             return 1;
         }
         if (n == 1)
         {
             //System.out.println(string.length()/2);
+            System.out.println("NO");
             return 1;
         }
         return palindromeRecursive(n-1)*n;
