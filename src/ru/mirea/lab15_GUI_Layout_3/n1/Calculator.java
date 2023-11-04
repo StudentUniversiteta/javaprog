@@ -35,7 +35,7 @@ class Calculator extends JFrame
                     double x2 = Double.parseDouble(jta2.getText().trim());
                     //всплывающее окно с информацией:
                     JOptionPane.showMessageDialog(null, "Result = " + (x1 + x2), "Alert", JOptionPane.INFORMATION_MESSAGE);
-                } catch (Exception e) { //TODO понять что значит е
+                } catch (Exception e) { //TODO
                     //всплывающее окно с ошибкой
                     JOptionPane.showMessageDialog(null, "Error in Numbers! ", "Alert", JOptionPane.ERROR_MESSAGE);
                 }
@@ -60,7 +60,7 @@ class Calculator extends JFrame
                     double x1 = Double.parseDouble(jta1.getText().trim());
                     double x2 = Double.parseDouble(jta2.getText().trim());
                     JOptionPane.showMessageDialog(null, "Result = " + (x1 * x2), "Alert", JOptionPane.INFORMATION_MESSAGE);
-                } catch (Exception e) { //TODO понять что значит е
+                } catch (Exception e) {
                     JOptionPane.showMessageDialog(null, "Error in Numbers! ", "Alert", JOptionPane.ERROR_MESSAGE);
                 }
             }
@@ -73,7 +73,7 @@ class Calculator extends JFrame
                     double x1 = Double.parseDouble(jta1.getText().trim());
                     double x2 = Double.parseDouble(jta2.getText().trim());
                     JOptionPane.showMessageDialog(null, "Result = " + (x1 / x2), "Alert", JOptionPane.INFORMATION_MESSAGE);
-                } catch (Exception e) { //TODO понять что значит е
+                } catch (Exception e) {
                     JOptionPane.showMessageDialog(null, "Error in Numbers! ", "Alert", JOptionPane.ERROR_MESSAGE);
                 }
             }
@@ -85,7 +85,7 @@ class Calculator extends JFrame
                     double x1 = Double.parseDouble(jta1.getText().trim());
                     double x2 = Double.parseDouble(jta2.getText().trim());
                     JOptionPane.showMessageDialog(null, "Result = " + (Math.pow(x1, x2)), "Alert", JOptionPane.INFORMATION_MESSAGE);
-                } catch (Exception e) { //TODO понять что значит е
+                } catch (Exception e) {
                     JOptionPane.showMessageDialog(null, "Error in Numbers! ", "Alert", JOptionPane.ERROR_MESSAGE);
                 }
             }
