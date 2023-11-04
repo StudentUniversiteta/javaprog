@@ -9,10 +9,10 @@ public class Menu extends JFrame {
     public Menu() {
 
         super("Тестовое окно");
-
-
         JMenuBar menuBar = new JMenuBar(); //создание менюбара
-
+        JToolBar toolBar = new JToolBar();
+        toolBar.setOrientation(SwingConstants.HORIZONTAL);
+        //toolBar.setOrientation(SwingConstants.HORIZONTAL);
         JMenu fileMenu = new JMenu("File"); //создание меню
         JMenuItem saveMenuFile = new JMenuItem("Save");
         JMenuItem exitMenuFile = new JMenuItem("Exit");
@@ -42,9 +42,14 @@ public class Menu extends JFrame {
 
         JButton button1 = new JButton("Button 1");
         JButton button2= new JButton("Button 2");
-        add(button1);
-        add(button2);
+        toolBar.add(button1);
+        toolBar.add(button2);
 
+        JTextField jTF1 = new JTextField();
+        JPanel contentPane = new JPanel(new BorderLayout());
+        contentPane.add(toolBar, BorderLayout.NORTH);
+        contentPane.add(jTF1, BorderLayout.SOUTH);
+        setContentPane(contentPane);
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Font font = new Font("Comic Sans", Font.PLAIN, 18);
