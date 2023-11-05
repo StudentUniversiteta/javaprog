@@ -1,4 +1,4 @@
-package ru.mirea.lab16.n3;
+package ru.mirea.lab16_Stroke.n3;
 
 import javax.swing.*;
 import java.awt.*;

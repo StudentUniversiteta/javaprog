@@ -1,4 +1,4 @@
-package ru.mirea.lab16.n1;
+package ru.mirea.lab16_Stroke.n1;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
