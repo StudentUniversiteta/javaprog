@@ -12,11 +12,9 @@ public class Student
     public void setName(String name) {
         this.name = name;
     }
-
     public String getRollNo() {
         return rollNo;
     }
-
     public void setRollNo(String rollNo) {
         this.rollNo = rollNo;
     }

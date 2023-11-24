@@ -43,8 +43,6 @@ public class n1
                 }
                 break;
         }
-
-
         System.out.print("Итог: " + "\n" + "Среднее арифметическое - " + sum / num);
     }
 }
