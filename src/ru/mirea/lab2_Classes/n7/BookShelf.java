@@ -14,7 +14,7 @@ public class BookShelf {
             mass[i].setAuthor(sc.nextLine());
             mass[i].setDate(sc2.nextInt());
         }
-        System.out.println("Хниги:");
+        System.out.println("Книги:");
         for (int i = 0; i < n; i++) {
             System.out.println();
             System.out.println((mass[i].getName()) + " ");

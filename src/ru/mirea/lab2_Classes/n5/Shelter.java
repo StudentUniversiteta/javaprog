@@ -21,7 +21,8 @@ public class Shelter {
     public void printDogs() {
         for (int i = 0; i < count; i++) {
             Dog dog = dogs[i];
-            System.out.println("Собака " + (i + 1) + ": Зовут " + dog.getName() + ", " + dog.getAge() + " лет, в человеческих годах " + dog.dogToHumanAge(dog.getAge()));
+            System.out.println("Собака " + (i + 1) + ": Зовут " + dog.getName() + ", " + dog.getAge()
+                    + " лет, в человеческих годах " + dog.dogToHumanAge(dog.getAge()));
         }
     }
 

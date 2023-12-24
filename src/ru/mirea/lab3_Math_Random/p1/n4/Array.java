@@ -25,17 +25,12 @@ public class Array {
         int[] evenArray = new int[n];
         System.out.print("\nЧетные элементы массива: ");
         int j = 0;
-        for (int i : array) {
+        for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
                 evenArray[j] = array[i];
+                System.out.print(evenArray[j] + " | ");
                 j++;
             }
         }
-        for (int i : evenArray) {
-            if (i != 0) {
-                System.out.print(i + " ");
-            }
-        }
     }
-
 }

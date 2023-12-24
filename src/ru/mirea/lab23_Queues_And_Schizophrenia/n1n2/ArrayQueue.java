@@ -29,7 +29,7 @@ class ArrayQueue {
                 front = 0;
             }
             rear++;
-            elements[rear] = item; //вставляем элемент в жопу
+            elements[rear] = item; //вставляем элемент
             size++;
             System.out.println("Inserted " + item);
         }

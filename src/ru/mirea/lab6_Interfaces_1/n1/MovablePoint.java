@@ -5,15 +5,12 @@ public class MovablePoint implements Movable {
     private int y;
     private int xSpeed;
     private int ySpeed;
-
     public int getX() {
         return x;
     }
-
     public int getY() {
         return y;
     }
-
     public MovablePoint(int x, int y, int xSpeed, int ySpeed)
     {
         this.x = x;
@@ -28,18 +25,12 @@ public class MovablePoint implements Movable {
     public void moveUp() {
         y+=ySpeed;
     }
-
-
     public void moveDown() {
         y-=ySpeed;
     }
-
-
     public void moveLeft() {
         x-=xSpeed;
     }
-
-
     public void moveRight() {
         x+=xSpeed;
 

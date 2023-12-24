@@ -2,7 +2,6 @@ package ru.mirea.lab23_Queues_And_Schizophrenia;
 import java.util.Queue;
 import java.util.LinkedList;
 
-
 /*
 По заданию шизофрения, нужно раз десять реализовать
 различные сексуальные девиации одной и той же программы/

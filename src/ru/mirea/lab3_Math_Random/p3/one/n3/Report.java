@@ -8,7 +8,8 @@ public class Report
         for (int i = 0; i < n; i++)
         {
             Formatter formatter = new Formatter();
-            System.out.println("Зарплата сотрудника " + debils[i].getFullName() + ": " + formatter.format("%16.2f", debils[i].getSalary()));
+            System.out.println("Зарплата сотрудника " + debils[i].getFullName()
+                    + ": " + formatter.format("%16.2f", debils[i].getSalary()));
         }
     }
     public static void main(String[] args)

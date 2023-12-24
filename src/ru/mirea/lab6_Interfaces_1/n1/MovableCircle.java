@@ -11,7 +11,9 @@ public class MovableCircle implements Movable {
     }
     public String toString()
     {
-        return ("Круг сдвинулся на позицию: |"+center.getX()+"|"+center.getY()+"|"+"\nА ещё зачем-то дан его радиус, он равен " + radius);
+        return ("Круг сдвинулся на позицию: |"+center.getX()
+                +"|"+center.getY()+"|"+"\nА ещё зачем-то дан его радиус, он равен "
+                + radius);
     }
     public void moveUp() {
         center.moveUp();

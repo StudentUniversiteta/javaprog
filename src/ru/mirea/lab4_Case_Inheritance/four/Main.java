@@ -9,8 +9,11 @@ public class Main {
         Computer computer = new Computer(Brand.APPLE, processor, memory, monitor);
 
         System.out.println("Brand: " + computer.getBrand());
-        System.out.println("Processor: " + computer.getProcessor().getModel() + ", " + computer.getProcessor().getSpeed() + " GHz");
-        System.out.println("Memory: " + computer.getMemory().getType() + ", " + computer.getMemory().getSize() + " GB");
+        System.out.println("Processor: " + computer.getProcessor().getModel()
+                + ", " + computer.getProcessor().getSpeed() + " GHz");
+        System.out.println("Memory: "
+                + computer.getMemory().getType() + ", "
+                + computer.getMemory().getSize() + " GB");
         System.out.println("Monitor: " + computer.getMonitor().getResolution());
     }
 }

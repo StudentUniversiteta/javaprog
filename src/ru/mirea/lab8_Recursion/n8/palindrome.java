@@ -11,7 +11,8 @@ public class palindrome
     public int palindromeRecursive(int n)
     {
         //if (string.length()%2==0) {
-            if (start <= (string.length() / 2) && string.charAt(start) == string.charAt(string.length() - start - 1)) {
+            if (start <= (string.length() / 2) && string.charAt(start)
+                    == string.charAt(string.length() - start - 1)) {
                 //System.out.println("Буква " + string.charAt(start) + " совпадает с буквой " + string.charAt(string.length() - start - 1));
                 start++;
             }

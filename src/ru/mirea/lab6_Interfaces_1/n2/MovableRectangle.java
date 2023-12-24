@@ -23,7 +23,9 @@ public class MovableRectangle implements Movable {
     }
     public String toString()
     {
-        return ("Прямоугольник сдвинулся на позицию (По Левой верхей и правой нижней):\n|"+topLeft.getX()+"|"+topLeft.getY()+"|"+"\n|" + bottomRight.getX()+"|"+bottomRight.getY()+"|");
+        return ("Прямоугольник сдвинулся на позицию (По Левой верхей и правой нижней):\n|"
+                +topLeft.getX()+"|"+topLeft.getY()+"|"+"\n|" + bottomRight.getX()+"|"
+                +bottomRight.getY()+"|");
     }
     public void moveUp() {
         topLeft.moveUp();

@@ -31,12 +31,14 @@ public class MathFunc implements MathCalculable
     public void exponentiation(int n)
     {
         double expX = Math.pow(x, n);
-        System.out.println("Число " + x + " в степени " + n + "равно: " + expX);
+        System.out.println("Число " + x + " в степени " + n + " равно: " + expX);
     }
 
     public void complexModule(double nIm)
     {
         complexNum cNumber = new complexNum(x, nIm);
-        System.out.println("Модуль комплексного числа равен: "+(sqrt((cNumber.getnRe()*cNumber.getnRe()) + cNumber.getnIm()*cNumber.getnIm())));
+        System.out.println("Модуль комплексного числа равен: "
+                +(sqrt((cNumber.getnRe()*cNumber.getnRe())
+                + cNumber.getnIm()*cNumber.getnIm())));
     }
 }

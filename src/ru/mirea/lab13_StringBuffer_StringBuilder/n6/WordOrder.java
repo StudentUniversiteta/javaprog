@@ -14,7 +14,7 @@ public class WordOrder {
     private static String getInputFileName() {
         //System.out.println("Введите имя файла: ");
         //Scanner in = new Scanner(System.in);
-        return("C:\\Users\\artez\\Desktop\\ООП.txt");
+        return("C:\\Users\\artez\\Desktop\\example.txt");
         // Вводим имя файла с консоли и возвращаем его
     }
 

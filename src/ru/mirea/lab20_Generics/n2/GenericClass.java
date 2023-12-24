@@ -31,7 +31,8 @@ public class GenericClass<T, V, K> {
 
     public static void main(String[] args)
     {
-        GenericClass<Integer, String, Double> genericObj = new GenericClass<>(324, "Дженерики", 3.423);
+        GenericClass<Integer, String, Double> genericObj = new GenericClass<>(324,
+                "Дженерики", 3.423);
         genericObj.printClassNames();
     }
 }

@@ -9,7 +9,8 @@ public class ProcessStrings implements Strings
     }
 
     public void countingSymbols() {
-        System.out.println("Длина строки: " + string.length());
+        System.out.println("Длина строки: "
+                + string.length());
     }
 
     public void returnOddSymbols() {
@@ -23,6 +24,7 @@ public class ProcessStrings implements Strings
 
     public void invertString() {
         String toBeReversed = string;
-        System.out.println("Реверснутая строка: " + new StringBuilder(toBeReversed).reverse());
+        System.out.println("Реверснутая строка: "
+                + new StringBuilder(toBeReversed).reverse());
     }
 }

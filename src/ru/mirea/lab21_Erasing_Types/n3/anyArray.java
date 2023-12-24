@@ -3,7 +3,8 @@ import java.lang.reflect.Array;
 
 public class anyArray {
     public static <T> T getElement(Object array, int index) {
-        if (array == null || !array.getClass().isArray() || index < 0 || index >= Array.getLength(array)) {
+        if (array == null || !array.getClass().isArray() || index < 0
+                || index >= Array.getLength(array)) {
             return null;
         }
 

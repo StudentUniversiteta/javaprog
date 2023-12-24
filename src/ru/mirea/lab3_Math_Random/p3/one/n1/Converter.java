@@ -12,10 +12,7 @@ public class Converter {
         double rubleEuro = euro / ruble;
         // ввод из консоли
         Scanner scanner = new Scanner(System.in);
-
         // 1. Доллары в рубли 2. Евро в рубли 3. Рубли в доллары и евро 4. Вывод курса
-
-
         while (true) {
             System.out.println("Выберите действие:\n1. Доллары в рубли\n2. Евро в рубли\n" +
                     "3. Рубли в доллары и евро\n4. Вывод курса\n0. Выход из программы");

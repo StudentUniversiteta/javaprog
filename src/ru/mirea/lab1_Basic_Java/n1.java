@@ -34,7 +34,7 @@ public class n1
                 break;
 
             case(2):
-                System.out.print("Заполняй массив сам чмо" + "\n");
+                System.out.print("Ручное заполнение массива " + "\n");
                 for (int i=0; i<num; i++) // цикл for
                 {
                     b = in.nextInt();
